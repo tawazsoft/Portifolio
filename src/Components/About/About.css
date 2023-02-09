@@ -277,6 +277,12 @@ and (orientation: landscape) {
     .img-3,.img-4{
         display: none;
     }
+    .About h2{
+        font-size: 29px;
+    }
+    .About h2::before{
+        left: 8px;
+    }
 }
 
 /* For iPhone 4 Portrait or Landscape View */
