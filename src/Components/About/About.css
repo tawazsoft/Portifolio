@@ -1,0 +1,300 @@
+.About{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.About h2{
+    font-size:46px ;
+    font-family: 'pbold';
+    position: relative;
+    
+    
+}
+
+.About h2::before{
+    content: "";
+    width: 130px;
+    height: 4px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    position: absolute;
+    left: 57px;
+    bottom: -1px;
+}
+
+.About-inner{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 50px auto;
+    flex-wrap: wrap;
+}
+
+.A-text{
+    display: flex;
+    flex-direction: column;
+    background: #1D1D1D 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    /* padding: 45px; */
+    justify-content: center;
+    width: 40%;
+    padding: 15px 60px;
+    border-radius: 7px;
+    position: relative;
+}
+
+.A-text h3{
+    font-size: 22px;
+    font-family: 'pbold';
+    position: relative;
+    margin: 20px 0;
+}
+
+.A-text h3::before{
+     content: "";
+    width: 100px;
+    height: 4px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+}
+.img-3{
+   position: absolute;
+    height: 120px;
+    width: 120px;
+    bottom: -3rem;
+    left: 34rem;
+}
+
+.img-4{
+  position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -6rem;
+    left: 30rem;
+}
+
+
+
+.my_ex hr{
+    width: 40%;
+    position: relative;
+    left: 58px;
+    opacity: 0.2;
+    margin: 20px 0;
+    
+    
+}
+
+.my_ex h4{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'pm';
+    margin: 16px 0;
+}
+
+.my_ex p{
+    width: 100%;
+    padding-left: 62px;
+    font-size: 17px;
+    font-family: 'pr';
+    line-height: 1.7em;
+   
+    
+}
+
+.my_ex img{
+    height: 40px;
+    width: auto;
+    padding-right: 20px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+.A-text .skill-box {
+    width: 100%;
+    margin: 33px 0;
+}
+
+.skill-box .title{
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.skill-box .skill-bar{
+    height: 8px;
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 6px;
+    background: rgba(0,0, 0, 0.1);
+}
+
+.skill-box .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 70%;
+    border-radius: 6px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+}
+
+.skill-per.css {
+    width: 80%;
+    animation-delay: 0.1s;
+}
+
+.skill-per.javascript{
+    width: 60%;
+    animation-delay: 0.2s;
+}
+.skill-per.nodejs{
+    width: 40%;
+    animation-delay: 0.3s;
+}
+.skill-per.reactjs{
+    width: 70%;
+    animation-delay: 0.3s;
+}
+.skill-per.expressjs{
+    width: 75%;
+    animation-delay: 0.3s;
+}
+
+
+@keyframes progress {
+    0% {
+        width: 0;
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 9px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background: crimson;
+    
+    z-index: 1;
+}
+
+.tooltip::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -2px;
+    height: 10px;
+    width: 10px;
+    z-index: -1;
+    background-color: crimson;
+    transform: translateX(-50%) rotate(45deg);
+}
+
+
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+
+}
+
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+    
+   
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+
+    .hero{
+        flex-wrap: wrap-reverse;
+    }
+    .hero h1{
+        font-size: 21px!important;
+    }
+    .hero h2{
+        font-size: 18px!important;
+    }
+    .hero p{
+        font-size: 17px;
+        margin: 20px auto;
+    
+    }
+    .h-text{
+        right: 0!important;
+        padding: 20px;
+    }
+    .A-text{
+        width: 100%;
+        margin: 20px auto;
+        padding: 15px 17px;
+    }
+    .img-3,.img-4{
+        display: none;
+    }
+}
+
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+   
+
+}
+
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+
+
+}
+
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+}

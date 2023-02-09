@@ -1,0 +1,45 @@
+.hero{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    
+   
+    
+    
+    
+}
+
+.hero h1{
+    font-size: 59px;
+    font-family: 'pb';
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+}
+.hero h2{
+    font-size: 30px;
+}
+.hero span{
+    color: red;
+}
+.hero p{
+    font-size: 20px;
+    font-family: 'pr';
+    font-weight: 600;
+}
+
+.h-image img{
+height: auto;
+width: 90%;  
+
+}
+
+.h-text{
+    
+    z-index: 1;
+     position: relative;
+     right: -70px;
+     
+}
