@@ -5,6 +5,8 @@ import ana from "../images/4.png";
 import ex from"../images/Ex.png";
 import setting from"../images/icon1.jpg";
 import mode from"../images/3.png";
+import mock from "../images/20959125.png";
+
 
 
 const Hero = () => {
@@ -131,10 +133,27 @@ const Hero = () => {
         </div>
       </div>
     </section>
-      <section className="My-Work">
+      <section className="My-Work  container">
       <h2>Some Of My Best Work.</h2>
 
-      
+      <div className="work-inner">
+      <div className="work">
+        <div className="work-text col-md-6">
+
+          <h3>Website Name</h3>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.</p>
+        </div>
+        <div className="Work-img  col-md-6">
+        <img src={mock} alt="hero" className="img-fluid"/>
+        </div>
+
+      </div>
+
+      </div>
+          
+
+
 
 
 

@@ -292,6 +292,21 @@ width: 90%;
 }
 
 
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.work-text{
+
+    height: 400px;
+    background-color: #fff;
+    color: #000;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+
 
 
 
