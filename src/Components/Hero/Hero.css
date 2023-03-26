@@ -270,13 +270,14 @@ width: 90%;
 .My-Work{
     margin: 0  100px;
     margin-top: 150px;
+    text-align: center;
 }
 
 .My-Work h2{
     font-size:46px ;
     font-family: 'pbold';
     position: relative;
-    
+    text-align: left;
     
 }
 
@@ -298,12 +299,67 @@ width: 90%;
     align-items: center;
 }
 .work-text{
-
+    text-align: right;
     height: 400px;
     background-color: #fff;
     color: #000;
     border-radius: 5px;
     padding: 30px;
+}
+
+.work-text h3{
+    text-align: center;
+    position: relative;
+    font-size: 34px;
+    font-family: 'pbold';
+}
+
+.work-text h3::before{
+    content: "";
+    width: 154px;
+    height: 4px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    position: absolute;
+    left: 210px;
+    bottom: -7px;
+}
+
+
+.work-text p{
+    text-align: left;
+    font-size: 20px;
+    font-family: 'pm';
+    margin: 30px auto;
+}
+
+.work-text a{
+    font-size: 20px;
+    font-family: 'pm';
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+.work-text a ::before{
+    content: "";
+    width: 54px;
+    height: 4px;
+    background:#000;
+    border-radius: 2px;
+    position: absolute;
+    left: 210px;
+    bottom: -1px;
+}
+
+.My-Work .bt2{
+    padding: 20px 60px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'pm';
+    border-radius: 4px;
+   
 }
 
 

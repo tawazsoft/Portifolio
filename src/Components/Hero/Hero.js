@@ -6,6 +6,7 @@ import ex from"../images/Ex.png";
 import setting from"../images/icon1.jpg";
 import mode from"../images/3.png";
 import mock from "../images/20959125.png";
+// import { Link } from 'react-router-dom';
 
 
 
@@ -143,6 +144,33 @@ const Hero = () => {
           <h3>Website Name</h3>
           <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
         <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.</p>
+        <a href ="/">VISIT WEBSITE</a>
+        </div>
+        <div className="Work-img  col-md-6">
+        <img src={mock} alt="hero" className="img-fluid"/>
+        </div>
+
+      </div>
+      <div className="work">
+        <div className="work-text col-md-6">
+
+          <h3>Website Name</h3>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.</p>
+        <a href ="/">VISIT WEBSITE</a>
+        </div>
+        <div className="Work-img  col-md-6">
+        <img src={mock} alt="hero" className="img-fluid"/>
+        </div>
+
+      </div>
+      <div className="work">
+        <div className="work-text col-md-6">
+
+          <h3>Website Name</h3>
+          <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+        <p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur.</p>
+        <a href ="/">VISIT WEBSITE</a>
         </div>
         <div className="Work-img  col-md-6">
         <img src={mock} alt="hero" className="img-fluid"/>
@@ -153,7 +181,7 @@ const Hero = () => {
       </div>
           
 
-
+      <a href="/" className="bt2">OPEN PORTFOLIO</a>
 
 
 
