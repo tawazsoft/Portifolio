@@ -10,30 +10,61 @@
     
     
 }
+.hero button {
+    padding: 10px 25px;
+    border: none;
+    font-size: 20px;
+    font-family: 'ps';
+    margin: 20px 0;
+    border-radius: 5px;
+    background: white;
+}
 
 .hero h1{
-    font-size: 59px;
+    font-size: 43px;
     font-family: 'pb';
     font-weight: 300;
     display: flex;
     flex-direction: column;
 }
 .hero h2{
-    font-size: 30px;
+    font-size: 32px;
 }
 .hero span{
     color: red;
 }
 .hero p{
-    font-size: 20px;
+    font-size: 23px;
     font-family: 'pr';
     font-weight: 600;
+    width: 60%;
+    line-height: 4rem;
 }
 
 .h-image img{
-height: auto;
-width: 90%;  
+height: 50%;
+z-index: 3;
+top: 25%;
+    height: 50%;
+    position: absolute;
+    left: 55%;
 
+
+}
+.h-image .line{
+    height: 330px;
+    width: 330px;
+    border: 1px solid white;
+    position: relative;
+    top: 45%;
+    left: -19%;
+    z-index: 0;
+}
+
+.h-image{
+    background: #DE0033;
+    width: 100%;
+    height: 100%;
 }
 
 .h-text{
@@ -42,6 +73,21 @@ width: 90%;
      position: relative;
      right: -70px;
      
+}
+.sv{
+    position: absolute;
+    left: 104%;
+    top: 60%;
+    height: auto;
+    width: 24%;
+
+}
+.sv1{
+   position: absolute;
+    left: 63%;
+    top: -18%;
+    width: 23%;
+
 }
 
 .About{
@@ -380,36 +426,43 @@ and (max-device-width: 1024px) {
 /* For Mobile Portrait View */
 @media screen and (max-device-width: 480px)
 and (orientation: portrait) {
-    
-   
+    .sv,.sv1{
+        display: none;
+    }
+    .hero p {
+    font-size: 17px;
+    margin: 0;
+    width: 100%;
 }
-
-/* For Mobile Landscape View */
-@media screen and (max-device-width: 640px)
-and (orientation: landscape) {
-
-}
-
-/* For Mobile Phones Portrait or Landscape View */
-@media screen and (max-device-width: 640px) {
-
-    .hero{
+ .hero{
         flex-wrap: wrap-reverse;
     }
+   .h-image img {
+    height: 50%;
+    z-index: 3;
+    top: 10%;
+    height: 50%;
+    position: absolute;
+    left: 0%;
+    object-fit: cover;
+}
+.h-image .line{
+    display: none;
+}
     .hero h1{
         font-size: 21px!important;
     }
     .hero h2{
         font-size: 18px!important;
     }
-    .hero p{
-        font-size: 17px;
-        margin: 20px auto;
-    
+    .h-image{
+        background-color: #1D1D1D;
     }
+    
     .h-text{
         right: 0!important;
         padding: 20px;
+        background-color: #1D1D1D;
     }
     .A-text{
         width: 100%;
@@ -421,10 +474,57 @@ and (orientation: landscape) {
     }
     .About h2{
         font-size: 29px;
+        left: -15px;
+        top: 33px;
     }
     .About h2::before{
         left: 8px;
     }
+
+    .My-Work{
+        margin: 0;
+    }
+
+    .My-Work h2 {
+    font-size: 25px;
+    font-family: 'pbold';
+    position: relative;
+    text-align: center;
+    margin: 30px auto;
+    top: -36px;
+}
+
+.My-Work h2::before {
+    left: 112px;
+    bottom: -11px;
+    width: 124px;
+}
+.work-text h3::before {
+    left: 91px;
+}
+.work-text h3 {
+    font-size: 23px;
+}
+.work-text p {
+    text-align: left;
+    font-size: 15px;
+    font-family: 'pm';
+    margin: 30px auto;
+}
+
+
+}
+
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+
+}
+
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+
+   
 }
 
 /* For iPhone 4 Portrait or Landscape View */
