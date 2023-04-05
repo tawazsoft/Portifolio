@@ -8,7 +8,7 @@ import mode from"../images/3.png";
 import mock from "../images/20959125.png";
 import sv from "../images/Group 12.svg";
 import sv1 from "../images/Group 13.svg";
-// import { Link } from 'react-router-dom';
+import List from "./List";
 
 
 
@@ -200,6 +200,48 @@ const Hero = () => {
           <a href="/" className="bt2">
             OPEN PORTFOLIO
           </a>
+        </section>
+
+        <section className="got">
+          <img className="img-4" src={ex} alt="ux" />
+          <h2>GOT A PROJECT?</h2>
+          <a href="/" className="bt1">
+            HIRE ME
+          </a>
+        </section>
+
+        <section className="who">
+          <h2>Who am I?</h2>
+          <div className=" who-inner">
+            <div className="my-text">
+              <h3>
+                Meet<span>Tawanda Mashanda</span>
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat, sed diam voluptua. At vero eos et accusam et
+                justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+                takimata sanctus est Lorem ipsum dolor sit amet.
+              </p>
+
+              <a href="/">READ MORE</a>
+
+              
+            </div>
+
+            <div className="my-text">
+              <h3>My Resume</h3>
+              <List/>
+            </div>
+          </div>
         </section>
       </>
     );

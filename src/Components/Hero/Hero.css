@@ -407,6 +407,166 @@ top: 25%;
     border-radius: 4px;
    
 }
+.got{
+    /* height: 30vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #000;
+    margin-top: 100px ;
+    padding: 100px;
+    position: relative;
+}
+
+.got a{
+    padding: 15px 60px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'pm';
+    border-radius: 4px;
+
+   
+}
+
+.got h2{
+    font-size: 56px;
+    font-family: 'pbold';
+    color: #fff;
+    margin: 20px auto;
+}
+
+.got img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: -8rem;
+    left: 141rem;
+}
+
+.who{
+    background-color: #E5E5E5;
+    width: 100%;
+    margin: 30px 20px;
+}
+
+.who .my-text{
+    background-color: #FFFFFF;
+    color: #000;
+    width: 40%;
+    border-radius: 5px;
+    padding: 30px;
+    margin: 30px auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.who .my-text p{
+    font-size: 19px;
+    font-family: 'pm';
+    margin: 30px  auto;
+}
+.who .my-text h3{
+    font-size: 24px;
+    font-family: 'pbold';
+    color: #000000;
+    position: relative;
+}
+.who .my-text h3::before{
+    
+       content: "";
+    width: 68px;
+    height: 4px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    position: absolute;
+    left: 0%;
+    bottom: -27%;
+
+}
+.my-text a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    padding-top: 50px;
+}
+
+
+
+.who .my-text h3 span{
+    color: #FF0000;
+    margin-left: 10px;
+}
+.who-inner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.who h2{
+    text-align: right;
+    position: relative;
+    font-size: 34px;
+    font-family: 'pbold';
+    color: #000000;
+    padding: 100px;
+}
+
+.who h2::before{
+    
+    content: "";
+    width: 84px;
+    height: 4px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    position: absolute;
+    left: 86%;
+    bottom: 37%;
+
+}
+
+.list{
+    display: flex;
+    flex-direction: column;
+}
+
+.list a{
+    align-self: center;
+    padding: 50px;
+}
+
+.list h4{
+    margin: 20px;
+    font-size: 23px;
+    font-family: 'pbold';
+    display: flex;
+}
+.list li{
+    font-size: 21px;
+    font-family: 'pm';
+    list-style: circle;
+    list-style-image: url(../images/Exclusion\ 4.png);
+    margin: 30px auto;
+   
+
+}
+
+.list ul{
+    padding-left: 112px;
+
+}
+
+.list h4 img{
+        padding-right: 6px;
+
+}
+
 
 
 
