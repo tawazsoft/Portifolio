@@ -1,6 +1,7 @@
 
 import './Hero.css'
 import dot from"../images/Ellipse 18.svg"
+import down from"../images/Group 21.svg"
 
 function List() {
   
@@ -37,7 +38,9 @@ function List() {
         </li>
       </ul>
 
-      <a className='tbt' href="/">DOWNLOAD MY CV</a>
+      <a className="tbt" href="/">
+        <img src={down} alt="hero" className="img-fluid" />
+      </a>
     </div>
   );
 }
