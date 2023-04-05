@@ -539,6 +539,7 @@ top: 25%;
 .list a{
     align-self: center;
     padding: 50px;
+    color: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;;
 }
 
 .list h4{
