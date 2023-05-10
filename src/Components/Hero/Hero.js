@@ -9,6 +9,8 @@ import mock from "../images/20959125.png";
 import sv from "../images/Group 12.svg";
 import sv1 from "../images/Group 13.svg";
 import List from "./List";
+import Contact from "./Contact";
+
 
 
 
@@ -82,7 +84,7 @@ const Hero = () => {
                 <hr />
               </div>
             </div>
-            <div className="A-text">
+            <div className="A-text2">
               <h3>My Skills</h3>
               <img className="img-4" src={ex} alt="ux" />
 
@@ -242,6 +244,10 @@ const Hero = () => {
               <List/>
             </div>
           </div>
+        </section>
+
+        <section className="footer">
+          <Contact/>
         </section>
       </>
     );

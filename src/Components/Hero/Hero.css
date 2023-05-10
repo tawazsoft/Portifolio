@@ -16,9 +16,9 @@
     font-size: 20px;
     font-family: 'ps';
     margin: 20px 0;
-    border-radius: 5px;
-    color: #fff;
-    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 1px;
+    color: #000000;
+    background: white;
 }
 
 .hero h1{
@@ -157,6 +157,24 @@ top: 25%;
     left: 0px;
     bottom: -10px;
 }
+
+.A-text2 h3{
+    font-size: 22px;
+    font-family: 'pbold';
+    position: relative;
+    margin: 20px 0;
+}
+
+.A-text2 h3::before{
+     content: "";
+    width: 100px;
+    height: 4px;
+    background: transparent linear-gradient(91deg, #FF0000 0%, #FF0BB4 100%) 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+}
 .img-3{
    position: absolute;
     height: 120px;
@@ -219,11 +237,26 @@ top: 25%;
 }
 
 
+.A-text2{
+        display: flex;
+    flex-direction: column;
+   
+    border-radius: 10px;
+    opacity: 1;
+    /* padding: 45px; */
+    justify-content: center;
+    width: 40%;
+    padding: 15px 60px;
+    border-radius: 7px;
+    position: relative;
+
+}
 
 
 
 
-.A-text .skill-box {
+
+.A-text2 .skill-box {
     width: 100%;
     margin: 33px 0;
 }
